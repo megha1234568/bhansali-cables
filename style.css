@@ -326,31 +326,8 @@
 }
 
 @media all and (max-width: 740px){
-    .box::before{
-    content: '';
-    position: absolute;
-    width:10em;
-    height: 1000%;
-    background: linear-gradient(#00ccff,#ebfa14);
-    animation: animate 6s linear infinite;
-}
-.box::after{
-    content: '';
-    position: absolute;
-    background: rgb(240, 241, 243);
-    inset: 4px;
-    border-radius: 16px;
-}
-@keyframes animate{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
     .box h2{
-        font-size: 1rem;
+        font-size: 1.2rem;
         line-height: 2%;
     }
     #about-us{
@@ -377,8 +354,8 @@
    
    }
    .product-detail{
-    grid-template-rows: 100px ;
-    grid-template-columns: 100px ;
+    grid-template-rows: 200px ;
+    grid-template-columns: 200px ;
     row-gap: 4rem;
     text-align: center;
 
