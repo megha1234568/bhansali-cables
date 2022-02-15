@@ -303,7 +303,7 @@
 }
 @media (max-width: 1024px){
     .box h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 2%;
     }
     #products{
@@ -314,8 +314,8 @@
         width: 70vw;
         height: 400vh;
         display: grid;
-        grid-template-rows: 300px ;
-        grid-template-columns: 300px ;
+        grid-template-rows: 200px ;
+        grid-template-columns: 200px ;
         align-items: center;
        justify-content: center;
         column-gap: 2rem;
