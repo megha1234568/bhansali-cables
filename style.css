@@ -327,7 +327,7 @@
 
 @media all and (max-width: 740px){
     .box h2{
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 2%;
     }
     #about-us{
@@ -354,7 +354,7 @@
    
    }
    .product-detail{
-    grid-template-rows: 200px ;
+    grid-template-rows: 100px ;
     grid-template-columns: 200px ;
     row-gap: 4rem;
     text-align: center;
