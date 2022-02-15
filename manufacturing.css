@@ -1,0 +1,81 @@
+#downloads{
+    height: 40vh;
+    width: 100vw;
+    background-color: rgb(141, 178, 247);
+    padding: 2rem 6rem;
+    text-align: center;
+}
+.download-container{
+    width: 90vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-container button{
+    background: wheat;
+    border-radius: 40px;
+    border: none;
+    padding: 12px 36px;
+    color: blue;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#downloads h2{
+    font-weight: bold;
+    color: black;
+    font-size: 2.5rem;
+}
+.download-button{
+    margin-right: 8rem;
+}
+.download-button1{
+    margin-left: 9rem;
+}
+.download-container button:hover{
+    box-shadow: 0 0 10px #19026b ,0 0 40px #19026b ,0 0 80px #19026b;
+    
+}
+.icon{
+    margin-right: 1rem;
+}
+.btns{
+    font-weight: bold;
+    background: linear-gradient(90deg,#9d8af3,#7bbde4);
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+@media (max-width: 1024px){
+    #downloads{
+        padding: 2rem 3rem;
+    }
+    .download-container button{
+        padding: 12px 25px;
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+    .download-button{
+        margin-right: 4rem;
+    }
+    .download-button1{
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 750px){
+    .download-container button{
+        padding: 10px 20px;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+    .icon{
+        margin-right: 0.5rem;
+    }
+    .download-button{
+        margin-right: 3rem;
+    }
+    .download-button1{
+        margin-left: 3rem;
+    }
+}
