@@ -254,7 +254,7 @@
     }
     #products{
         width: 100vw;
-        height: 400vh;
+        height: 300vh;
     }
     .product-detail-container{
         width: 100vw;
@@ -291,12 +291,12 @@
     }
     #products{
         width: 100vw;
-        height: 500vh;
+        height: 450vh;
     }
     .product-container{
         width: 100vw;
         padding-top: 2rem;
-        height: 500vh;
+        height: 450vh;
     }
     .product-container h2{
         font-size: 40px;
