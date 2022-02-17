@@ -258,7 +258,7 @@
     }
     .product-detail-container{
         width: 100vw;
-        height: 100vh;
+        height: 200vh;
         display: grid;
         grid-template-rows: 300px 300px;
         grid-template-columns: 300px 300px ;
