@@ -1,3 +1,6 @@
+.box{
+    height: 10rem;
+ }
 #downloads{
     height: 40vh;
     width: 100vw;
@@ -47,6 +50,9 @@
     font-size: 1rem;
 }
 @media (max-width: 1024px){
+    .box{
+        height: 5rem;
+    }
     #downloads{
         padding: 2rem 3rem;
     }
@@ -64,6 +70,9 @@
 }
 
 @media (max-width: 750px){
+    .box{
+        height: 6rem;
+    }
     .download-container button{
         padding: 10px 20px;
         letter-spacing: 2px;
