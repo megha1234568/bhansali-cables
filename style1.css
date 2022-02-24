@@ -1,0 +1,246 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+.carousel-item {
+	height: 90vh;
+}
+.carousel-item img{
+    opacity: 0.4;
+}
+.carousel-caption {
+	top: 50px;
+    color: #000080;
+}
+.carousel-caption h5 {
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-caption button {
+	text-transform: uppercase;
+	text-decoration: none;
+	background:#000080;
+	padding: 10px 30px;
+	display: inline-block;
+	color: white;
+	margin-top: 4rem;
+    border-radius: 20px;
+}
+.carousel-caption button:hover{
+    box-shadow: 0 0 10px #2193f6 ,0 0 40px #2193f6 ,0 0 80px #2193f6;
+    color: white;
+}
+.navbar-nav a {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #000080;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 5px;
+   
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #000080;
+    padding-right: 2rem;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-brand img{
+    height: 3.5rem;
+    width: 8.5rem;
+    padding-top: 1px;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: rgb(185, 185, 243);
+}
+/* product section start*/
+#products{
+    height: 130vh;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding-top: 4em;
+    text-transform: capitalize;
+}
+.product-container{
+    height: 100vh;
+    width: 100vw;
+}
+.product-container h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #05036A;
+    margin-top: 1rem;
+}
+.product-detail-container{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+}
+.product-detail{
+    width: 250px;
+    height: 300px;
+    margin-top: 5em;
+    position: relative;
+    border:1px solid rgba(255,255,255,.2);
+    overflow: hidden;
+}
+.textbox{
+    height: 50px;
+    padding: 3px;
+    border-radius: 7px;
+}
+.textbox h4{
+    font-size: 18px;
+    color: #05036A;
+}
+
+.product-detail img{
+    width: 100%;
+    height: 100%;
+}
+hr{
+    border-top: 4px solid blue;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* product section end*/
+
+/* contact section start*/
+#contact-us{
+    width: 100vw;
+    /* height: 70vh; */
+    background-color: rgb(214, 212, 212);
+    padding-top: 3rem;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+.footer-inner{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 24px;
+}
+.map iframe{
+     width: 100%;
+     height: 340px;
+     border: none;
+}
+.contact-text{
+    width: 100%;
+    height: auto;
+    margin: 2rem;
+}
+.contact-text h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #05036A;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contact-text h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+    margin: 0;
+    padding-top: 25px;    
+}
+.contact-text h2 i{
+    color: #05036A;
+}
+.contact-text p{
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 24px;
+    font-weight: 100;
+}
+/* contact section end*/
+/*footer start*/
+#footer{
+    width: 100vw;
+    height: 20vh;
+    /* padding: 5% 15%; */
+    text-align: center;
+    background-color: #05036A;
+    color: wheat;
+  }
+  .social-icon{
+    margin: 20px 10px;
+    cursor: pointer;
+  }
+  /*footer end*/ 
+
+/* @media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		bottom: 165px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+} */
+@media (max-width: 1024px){
+    #products{
+        width: 100vw;
+        height: 100vh;
+    }
+    .product-detail-container{
+        width: 100vw;
+        height: 80vh;
+        display: grid;
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 300px 300px ;
+        align-items: center;
+        justify-content: center;
+        column-gap: 2rem;
+        row-gap: 2rem;
+        padding-left: 6rem;
+        margin-top: 3rem;
+    }
+    .carousel-item {
+        height: 70vh;
+    }
+    .carousel-caption {
+		top: 10rem;
+	}
+	.carousel-caption h5 {
+		font-size: 4rem;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 3rem;
+	}
+}
+
